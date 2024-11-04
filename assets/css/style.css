@@ -120,7 +120,7 @@ form:has(:invalid) button {
   50% {
     transform: translateX(-100px);
   }
-
+}
   
   body {
     height: 100vh;
@@ -164,7 +164,7 @@ form:has(:invalid) button {
     text-align: center;
   }
   
-  input:focus {
+  input::focus {
     outline-color: var(--primary);
   }
   
