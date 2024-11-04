@@ -92,3 +92,22 @@
     opacity: 0.1;
     background-color: #ff0000;
   }
+
+#r2_p {
+    text-align: center;
+}
+
+#r2_m {
+    text-align: center;
+    font-size: 10px;
+}
+
+#r2_d {
+    margin: 9rem;
+    text-align: center;
+}
+
+#r2_p > span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
